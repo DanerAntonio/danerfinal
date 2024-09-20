@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: TeoCat
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node app.js  # o el nombre de tu archivo principal
